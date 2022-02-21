@@ -55,11 +55,11 @@ buttons.forEach(function(button){
 
                     if (e.target.innerText === '.') {
 
-                        op.split('').map((ele,i,arr) => arr.includes('.') ? '' :
-                        op += e.target.innerText)
+                        op.split('').includes('.') ? '' :
+                        op += e.target.innerText
                         
-                        inputField.value.split('').map((ele,i,arr) => arr.includes('.') ? '' :
-                        inputField.value += e.target.innerText)
+                        inputField.value.split('').includes('.') ? '' :
+                        inputField.value += e.target.innerText
 
                     } else {
 
