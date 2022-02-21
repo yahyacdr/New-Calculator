@@ -1,0 +1,101 @@
+@media (max-width: 1280px) {
+
+    body {
+        justify-content: space-between;
+    }
+
+    .calculator {
+        width: 100%;
+        height: 80%;
+    }
+
+    .button {
+        border-bottom-left-radius: 0px;
+        -webkit-bottom-left-radius: 0px;
+        -moz-bottom-left-radius: 0px;
+        -ms-bottom-left-radius: 0px;
+        -o-bottom-left-radius: 0px;
+
+        border-bottom-right-radius: 0px;
+        -webkit-bottom-right-radius: 0px;
+        -moz-bottom-right-radius: 0px;
+        -ms-bottom-right-radius: 0px;
+        -o-bottom-right-radius: 0px;
+
+        grid-template-rows: 
+        19.5% 
+        19.5% 
+        19.5%
+        19.5%
+        19.5%;
+        grid-gap: 0;
+        padding-top: 4%;
+    }
+
+    .button div:last-child div:nth-child(3) span {
+        margin-bottom: 8%;
+    }
+
+    .switcher {
+        width: 10%;
+        height: 6%;
+        margin-top: 15px;
+        align-self: flex-end;
+        margin-right: 5px;
+    }
+
+    .switcher img {
+        width: 30%;
+    }
+
+    .button div div img {
+        width: 12%;
+    }
+
+    .button {
+        font-size: 4.3rem;
+    }
+    
+}
+
+@media (max-width: 912px) {
+
+    .switcher {
+        width: 15%;
+        height: 5%;
+    }
+
+    .button div div img {
+        width: 30%;
+    }
+
+    .button div:last-child div:nth-child(3) span {
+        margin-bottom: 18%;
+    }
+
+    .button {
+        font-size: 6rem;
+    }
+}
+
+@media (max-width: 414px) {
+
+    .switcher {
+        width: 20%;
+        height: 4%;
+        align-self: center;
+        padding: 0 1.5%;
+    }
+
+    .button div div img {
+        width: 37%;
+    }
+
+    .button div:last-child div:nth-child(3) span {
+        margin-bottom: 20%;
+    }
+
+    .button {
+        font-size: 3rem;
+    }
+}
