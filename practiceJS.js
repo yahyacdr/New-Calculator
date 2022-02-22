@@ -55,7 +55,10 @@ buttons.forEach(function(button){
 
                     if (e.target.innerText === '.') {
 
-                        op.split('').includes('.') ? '' :
+                        let i = inputField.value.length
+                        let opl = op.length
+                        let cd = op.slice(opl - i, opl)
+                        cd.split('').includes('.') ? '' :
                         op += e.target.innerText
                         
                         inputField.value.split('').includes('.') ? '' :
